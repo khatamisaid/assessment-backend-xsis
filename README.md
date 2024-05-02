@@ -7,6 +7,7 @@
  - Method       : "POST"
  - Description  : return the details of a movies in JSON format
  - JSON Body (request Body) : 
+ ```json
 {
     "id" : 1,
     "title" : "Pengabdi Setan 2 Comunion",
@@ -16,6 +17,7 @@
     "created_at" : "2022-08-01 10:56:31",
     "updated_at": "2022-08-13 09:30:23"
 }
+```
  - response :
 ```json
 {
